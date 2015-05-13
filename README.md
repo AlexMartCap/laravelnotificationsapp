@@ -1,1 +1,3 @@
 # laravelnotificationsapp
+
+Ús del Mandrill
