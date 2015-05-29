@@ -70,8 +70,7 @@
                                     data-amount="500"
                                     data-name="Demo Site"
                                     data-description="1 widget (5€)"
-                                    data-image="/img/Openshareicon-128x128.png
-">
+                                    data-image="/img/Openshareicon-128x128.png">
                             </script>
                         </form>
                     </a>
