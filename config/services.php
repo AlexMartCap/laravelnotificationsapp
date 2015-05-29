@@ -30,9 +30,8 @@ return [
 	],
 
 	'stripe' => [
-		'model'  => 'LaravelNotificationApp\User',
-		'key' => '',
-		'secret' => '',
+		'model'  => 'User',
+        'secret' => env('STRIPE_API_SECRET'),
 	],
 
 ];
