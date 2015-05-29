@@ -67,10 +67,11 @@
                             <script
                                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                     data-key="pk_test_ce4oDoqZlPuu3wbfML9Bldqf"
-                                    data-amount="1000"
+                                    data-amount="500"
                                     data-name="Demo Site"
-                                    data-description="2 widgets (5€)"
-                                    data-image="/img/Openshareicon-128x128.png">
+                                    data-description="1 widget (5€)"
+                                    data-image="/img/Openshareicon-128x128.png
+">
                             </script>
                         </form>
                     </a>
@@ -135,10 +136,11 @@
                             <script
                                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                     data-key="pk_test_ce4oDoqZlPuu3wbfML9Bldqf"
-                                    data-amount="2000"
+                                    data-amount="1000"
                                     data-name="Demo Site"
                                     data-description="2 widgets (10€)"
-                                    data-image="/img/Openshareicon-128x128.png">
+                                    data-image="/img/Openshareicon-128x128.png
+">
                             </script>
                         </form>
                     </a>

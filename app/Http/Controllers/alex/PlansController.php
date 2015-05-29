@@ -12,7 +12,7 @@ class PlansController extends Controller {
     public function __construct()
     {
         //if user not logged go to login page
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
     /**
      * Display a listing of the resource.
@@ -31,7 +31,8 @@ class PlansController extends Controller {
         $token = Input::get('stripeToken');
         $plan = Input::get('plan');
         Auth::user()->subscription($plan)->create($token);
-        return view('plans')->withMessage('Transaction successful')->withPlan($plan);
+
+        return view('plans')->withMessage('Transaction successful')->with('plan',$plan);
     }
     /**
      * Show the form for creating a new resource.
