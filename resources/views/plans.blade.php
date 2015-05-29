@@ -135,12 +135,11 @@
                             <input type="hidden" name="plan" value="starter">
                             <script
                                     src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                                    data-key="pk_test_p6G8wxXZHtrnWGlWd78UZCYo"
+                                    data-key="pk_test_ce4oDoqZlPuu3wbfML9Bldqf"
                                     data-amount="2000"
                                     data-name="Demo Site"
                                     data-description="2 widgets (10€)"
-                                    data-image="/img/Opml-icon-128x128.png
-">
+                                    data-image="/img/Openshareicon-128x128.png">
                             </script>
                         </form>
                     </a>
